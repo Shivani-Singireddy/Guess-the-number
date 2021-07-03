@@ -21,7 +21,7 @@ btnCheck.addEventListener('click', function(){
     if(score>0){
         if(guess>0 && guess<21){
             if(guess == secretNumber){
-                message.textContent="You are correct";
+                message.textContent="You are correct👏✔";
                 if(score > highScore){
                     highScore=score;
                     displayHighScore.textContent= score;
@@ -29,19 +29,19 @@ btnCheck.addEventListener('click', function(){
                     displayScore.textContent=score;
                 }
             }else if(guess > secretNumber){
-                message.textContent="You are too high";
+                message.textContent="You are too high ⬆";
                 score--;
                 displayScore.textContent=score;
             }else{
-                message.textContent="You are too low";
+                message.textContent="You are too low ⬇";
                 score--;
                 displayScore.textContent=score;
             }
         }else{
-            message.textContent="Please provide valid input";
+            message.textContent="Please provide valid input❎";
         }
     }else{
-        message.textContent="You lost the game";
+        message.textContent="You lost the game😕";
     }
 });
 

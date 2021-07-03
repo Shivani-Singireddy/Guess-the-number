@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,400;0,500;0,700;1,500;1,700&family=Yomogi&display=swap');
+body{
+    font-family: 'Poppins',sans-serif;
+    /* background-color: cadetblue; */
+    background-image: url('img.png');
+    background-image: no-repeat ;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.heading{
+    margin-top: 0.3rem;
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+    color: whitesmoke;
+    padding:1rem;
+}
+.p1{
+    text-align: center;
+    padding: 0rem;
+    font-size:x-large;
+    font-style:oblique;
+    font-weight: 500;
+    color:white;
+}
+.btn-again{
+    color:black;
+    font-style: italic;
+    font-size: x-large;
+    font-family: 'kaushan';
+    background-color:wheat;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding:1rem 1.5rem;
+    border-radius: 1rem;
+    border:1px solid black;
+    box-shadow: 1px 5px 5px 0px whitesmoke;
+}
+.secret-number{
+    text-align:center;
+    color:black;
+    font-size: xx-large;
+    padding: 0.5rem 1rem;
+    background-color:whitesmoke;
+    margin-top: 0px;
+    margin-bottom: 7px;
+    margin-left: 35rem;
+    margin-right: 35rem;
+    box-sizing: 1px;
+    border: 2px solid black;
+}
+/* .left{
+    text-align: left;
+} */
+.p2{
+    color:white;
+    font-style: italic;
+    font-weight: 300;
+    font-size: x-large;
+    margin-left: 225px;
+}
+.guess{
+    color:black;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 500;
+    margin-left: 15rem;
+    margin-top: 0rem;
+    width: 8rem;
+    height:3rem;
+    padding:0.5rem;
+    border:2px solid black;
+}
+.btn-check{
+    color: black;
+    font-style: italic;
+    font-size: x-large;
+    font-family: 'kaushan';
+    margin-left: 17rem;
+    margin-top: 1rem;
+    background-color:whitesmoke;
+    padding:0.5rem;
+    width: 5rem;
+    outline: 2.5px solid white;
+    outline-offset: 1px;
+    /* border-radius: 1rem; */
+    border:1px solid black;
+    box-shadow: 1px 3px 3px 0px whitesmoke;
+}
+.btn-check:hover{
+    background-color: black;
+    color:white;
+}
+.right{
+    text-align: right;
+    margin-left: 400px;
+}
+.score-label{
+    font-size: 30px;
+    font-style:italic;
+    color:white;
+    margin-right: 25px;
+    margin-bottom: 0px;
+}
+.high-score-label{
+    font-size: 30px;
+    font-style:italic;
+    color:white;
+    margin-top:5px;
+    margin-right: 25px;
+}
